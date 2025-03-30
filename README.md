@@ -27,7 +27,7 @@ PDFShield, a secure PDF Locker is a Python-based application with a **Kivy** GUI
 
 ## Installation
 ### Windows/macOS (Standalone App)
-1. Download the latest `.exe` (Windows) or `.app` (macOS) from the [Releases](https://github.com/aniket-cs/PDFShield/Releases) section.
+1. Download the latest `.exe` (Windows) or `.app` (macOS) from the [Releases](https://github.com/aniket-cs/PDFShield/tree/master/Releases/) section.
 2. Run the application without needing Python.
 
 ### Run from Source Code (Python 3 Required)
@@ -46,7 +46,7 @@ PDFShield, a secure PDF Locker is a Python-based application with a **Kivy** GUI
    ```
 
 ### Android (APK Installation)
-1. Download the APK from the [Releases](https://github.com/aniket-cs/PDFShield/Releases).
+1. Download the APK from the [Releases](https://github.com/aniket-cs/PDFShield/tree/master/Releases/).
 2. Install it on your Android device.
 3. Open the app and start encrypting PDFs!
 
