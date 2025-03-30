@@ -1,0 +1,3 @@
+([('protection',
+   '/Users/aniketdas/PycharmProjects/PDFShield/dist/protection',
+   'EXECUTABLE')],)
