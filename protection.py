@@ -81,7 +81,7 @@ class PDFShieldApp(App):
 
     def process_pdf(self, instance):
         input_pdf = self.input_chooser.selection[0] if self.input_chooser.selection else ""
-        output_pdf = self.output_chooser.path + "/encrypted.pdf" if self.output_chooser.path else ""
+        output_pdf = self.output_chooser.path + "/PDFShield_Protected.pdf" if self.output_chooser.path else ""
         password = self.password_input.text
 
         if not input_pdf or not output_pdf or not password:
