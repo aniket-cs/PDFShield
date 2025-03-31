@@ -5,7 +5,7 @@ PDFShield, a secure PDF Locker is a Python-based application with a **Kivy** GUI
 ## Features
 - **Password-protect PDF files** with encryption
 - **Hide/Unhide password toggle** while entering
-- **Animated buttons** and stylish gradient UI
+- **Animated buttons** and stylish dark theme UI
 - **Cross-platform**: Works on **Windows, macOS, and Android**
 
 ## Screenshots
@@ -76,6 +76,11 @@ buildozer android release
 - If SSL errors occur, update `certifi`:
   ```bash
   pip install --upgrade certifi
+  ```
+- If Failed to execute script 'protection' due to unhandled exception: **No module named 'win32timezone'**:
+  ```bash
+  pip install pywin32
+  pyinstaller --onefile --windowed --hidden-import=win32timezone protection.py
   ```
 
 ## License
