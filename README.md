@@ -53,9 +53,12 @@ PDFShield, a secure PDF Locker is a Python-based application with a **Kivy** GUI
 ## Building the Application
 ### **Windows/macOS: Generate Executable (.exe/.app)**
 ```bash
-pyinstaller --onefile --windowed --icon=icon.png main.py
+pyinstaller --onefile --windowed --icon=logo.jpg protection.py
 ```
-
+OR, if you don't want to add any image / icon / logo to your app :
+```bash
+pyinstaller --onefile --windowed protection.py
+```
 ### **Android: Generate APK**
 ```bash
 buildozer -v android debug
